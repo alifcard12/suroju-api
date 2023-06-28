@@ -4,7 +4,7 @@ import { authMiddleware } from "../middleware/authMiddleware.js";
 
 const router = express.Router();
 
-router.get("/tamu/", authMiddleware, getTamu);
+router.get("/tamu/",  getTamu);
 
 // Menambahkan tamu baru
 router.post("/tamu/add", authMiddleware, addTamu);
