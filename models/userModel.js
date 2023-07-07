@@ -21,7 +21,7 @@ const userSchema = new mongoose.Schema(
     role: {
       type: String,
       enum: ["Admin", "Free", "Bronze", "Diamond", "Premium"],
-      default: "Free",
+      default: "free",
     },
     profilePict: {
       type: String,
