@@ -77,7 +77,7 @@ app.use("/api/youtube", youtubeRoutes);
 app.use("/api/cover", coverRoutes);
 
 // Jalankan server
-app.listen(port, () => {
+app.listen(port, "https://suroju-api.vercel.app/" () => {
   connect();
   console.log(`Server berjalan di http://localhost:${port}`);
 });
